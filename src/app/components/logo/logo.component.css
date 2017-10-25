@@ -1,0 +1,8 @@
+:host {
+  width: 90px;
+  height: 90px;
+  transition: transform .3s ease;
+}
+:host:hover {
+  transform: scale(1.2);
+}

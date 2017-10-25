@@ -1,0 +1,13 @@
+:host {
+  width: 100%;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
