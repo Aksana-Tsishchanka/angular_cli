@@ -1,0 +1,54 @@
+:host {
+  border: 1px solid #d5c9e2;
+  width: 100%;
+  min-width: 300px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+:host:hover {
+  background-color:rgba(0,0,255,0.1);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.info, .infoContainer, .detailsTitle, .detailsDate {
+  display: flex;
+}
+.infoContainer {
+  flex: 3;
+  flex-direction: column;
+}
+.description {
+  flex: 1;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.info {
+  justify-content: space-between;
+  font-size: 14px;
+}
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  color: #50c6db;
+  font-size: 16px;
+}
+.duration {
+  border-left: 1px solid grey;
+  padding-left: 10px;
+  color: grey;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.detailsDate {
+  font-size: 12px;
+  font-style: italic;
+  color: grey;
+  line-height: 2;
+}
